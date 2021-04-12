@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>당신이 좋아하는 강아지를 선택하시오</h1>
+	<form action="/servlet-book/DogServlet" method="post">
+		<div>
+			<input type="checkbox" name="dog" value="pu">푸들 <!-- 동일한 이름으로 여러개의 값을 받을 수 있다 -->
+			<input type="checkbox" name="dog" value="jin">진돗개
+			<input type="checkbox" name="dog" value="pung">풍산개
+		</div>
+		<div>
+			<input type="text" name="id">
+			<input type="text" name="id">
+			<input type="text" name="id">
+		</div>
+	</form>
+	<button type="submit">전송</button>
+</body>
+</html>
